@@ -1,0 +1,110 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="style.css">
+<title>Bezpieczeństwo informacji</title>
+
+<script>
+var scrollUp = document.getElementById("scrollUp");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    scrollUp.style.display = "block";
+  } else {
+    scrollUp.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+</head>
+
+<body>
+
+
+
+  <ul class="menu">
+    <li><a href="index.html">HOME</a></li>
+    <!-- <li><a href="start.html">WSTĘP</a></li> -->
+    <li><a href="triad.html">TRIADA CIA</a></li>
+		<li><a href="hasla.html">HASŁA</a></li>
+		<li><a href="malware.html">MALWARE</a></li>
+		<li><a href="inzynieria.html">INŻYNIERIA SPOŁECZNA</a></li>
+    <li><a href="conclusion.html">PODSUMOWANIE</a></li>
+	</ul>
+
+
+<div class="banner banner-main">
+  <section>
+    <span>Bezpieczeństwo informacji</span>
+  </section>
+
+  <!-- <div class="banner-alpha">
+
+</div> -->
+</div>
+
+<main>
+
+  <div class="grid">
+
+<!-- <a href="start.html">
+<section class="ss" style="background-image: url(start.jpg);">
+<p>WSTĘP</p>
+</section>
+</a> -->
+
+<a href="triad.html">
+<section class="ss" style="background-image: url(triad.jpg);">
+<p>TRIADA CIA</p>
+</section>
+</a>
+
+<a href="hasla.html">
+<section class="ss" style="background-image: url(password.jpg);">
+<p>HASŁA</p>
+</section>
+</a>
+
+<a href="malware.html">
+<section class="ss" style="background-image: url(malware.jpg);">
+<p>MALWARE</p>
+</section>
+</a>
+
+<a href="inzynieria.html">
+<section class="ss" style="background-image: url(engineering.jpg);">
+<p>INŻYNIERIA SPOŁECZNA</p>
+</section>
+</a>
+
+<a href="conclusion.html">
+<section class="ss" style="background-image: url(conclusion.jpg);">
+<p>PODSUMOWANIE</p>
+</section>
+</a>
+
+</div>
+
+
+<footer>
+<hr>
+&copy; Dominik Gawroński 2020
+
+</footer>
+</main>
+
+ <button onclick="topFunction()" id="scrollUp" title="Go to top">Top</button>
+
+
+
+
+
+</body>
+
+</html>
